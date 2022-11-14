@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.bg{
+  background: url('https://media.istockphoto.com/id/1011082092/photo/autumn-forest-landscape-colorful-foliage-on-trees-and-grass-shining-on-sunbeams-amazing.jpg?s=612x612&w=0&k=20&c=7eH-l7s7Cw2Jk7bg1twJz196ZJW0dCjl7TKU5ZkECU8=') no-repeat center center/cover;
+  position: absolute;
+  top:0px;
+  left:0px;
+  width:100vw;
+  height:100vh;
+  z-index:-1;
+  filter: blur(0px);
+}
+.loading-text{
+  font-size: 50px;
+  color: white;
+}
